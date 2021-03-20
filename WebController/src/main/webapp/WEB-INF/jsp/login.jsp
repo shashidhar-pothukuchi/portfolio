@@ -10,8 +10,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-<title>Login page - Bootsnipp.com</title>
+
+<title>Login page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link
 	href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -112,6 +112,7 @@ body {
 							class="form-control" placeholder="Password" required>
 					</div>
 					<button type="submit" name="submit" class="btn btn-black">Login</button>
+					<div class="text-center d-flex justify-content-between mt-4"><p>${errormsg}</u></p></div>
 				</form>
 			</div>
 		</div>

@@ -22,7 +22,7 @@
                     <div class="card-block">
                         <h4 class="card-title">Calculate Portfolio</h4>
                         <p class="card-text">Click to view my portfolio</p>
-                        <form action="/viewSchedule" method="GET"><button type="submit" name="submit" class="btn btn-outline-primary">Calculate Portfolio</button></form>
+                        <form action="/viewNetworth" method="GET"><button type="submit" value="submit" class="btn btn-outline-primary">Calculate Portfolio</button></form>
                         <p></p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                     <div class="card-block">
                         <h4 class="card-title">Sell </h4>
                         <p class="card-text">Click to sell a stock</p>
-                        <form action="/viewDemand" method="GET"><button type="submit" name="submit" class="btn btn-outline-success">Sell Stock</button></form>
+                        <form action="/sellAssets" method="GET"><button type="submit" name="submit" class="btn btn-outline-success">Sell Stock</button></form>
                         <p></p>
                     </div>
                 </div>
